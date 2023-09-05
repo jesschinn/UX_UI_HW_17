@@ -6,19 +6,24 @@
 .logo{
     width: 23%;
     padding: .5%;
-    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 nav{
     width: 73%;
     padding: .5%;
-    background-color: aquamarine;
+    background-color: aqua;
 }
 
 ul{
-    width: 50%;
+    width: 80%;
     margin-left: auto;
-    background-color: blueviolet;
 }
 
 li{
@@ -35,6 +40,7 @@ header{
     height: 50%;
     padding: 25px;
     text-align: center;
+  
 }
 
 .content{
@@ -48,20 +54,18 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button{ padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+    
+
 footer{
     background-color: #E970DD;
     margin:center;
     text-align: center;
 }
 
-button{ padding: 5px;
-margin-top: 20px;
-margin-bottom: 20px;}
-
-
 footer ul{
-    display: inline-block;
     text-align: center;
-    background-color: blue;
     margin: auto;
 }
