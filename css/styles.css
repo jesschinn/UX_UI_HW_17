@@ -5,17 +5,20 @@
 
 .logo{
     width: 23%;
-    padding:0 ;
+    padding: .5%;
+    background-color: blanchedalmond;
 }
 
 nav{
     width: 73%;
     padding: .5%;
+    background-color: aquamarine;
 }
 
 ul{
     width: 50%;
     margin-left: auto;
+    background-color: blueviolet;
 }
 
 li{
@@ -41,9 +44,6 @@ header{
     text-align: center;
 }
 
-button{ padding: 5px;
-margin: 20px;}
-
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -51,13 +51,15 @@ h2{
 footer{
     background-color: #E970DD;
     margin:center;
+    text-align: center;
 }
 
-ul{
-    text-align:center;
-}
+button{ padding: 5px;
+margin-top: 20px;
+margin-bottom: 20px;}
 
-.inline-block-footer{
+
+footer ul{
     display: inline-block;
     text-align: center;
     background-color: blue;
